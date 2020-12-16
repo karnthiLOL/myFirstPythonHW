@@ -24,7 +24,7 @@ def buy(water,water_used,milk,milk_used,beans,beans_used,cup,cup_used,money,mone
     money = int(money) + int(money_take)
     return (water,milk,beans,cup,money)
 
-x = 1
+y = 1
 
 water = 400
 milk = 540
@@ -32,7 +32,7 @@ beans = 120
 cup = 9
 money = 550
 
-while x == 1:
+while y == 1:
 
     menu(water,milk,beans,cup,money)
 
